@@ -41,8 +41,13 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
+
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                
+                <div class="col-12 col-sm align-self-center">
+                    <a href="#Reservation" class="btn btn-sm btn-block bg-warning">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -74,8 +79,16 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">New</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person. </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                    src="img/buffet.png" alt="buffet">
+                </div>
+
             </div>
         </div>
 
@@ -103,8 +116,8 @@
         <div class="row row-content " style="font-size: 20px ;">
 
             <div class = "offset-sm-2 col-12 col-sm-8">
-                <div class="card">
-                    <h3 class="card-header text-white" style = "background-color: rgb(235, 203, 21);">Reserve a Table</h3>
+                <div class="card" id="Reservation">
+                    <h3 class="card-header bg-warning text-white" >Reserve a Table</h3>
                     <div class="card-body">
                         <div class="row">
                             <div class = "col-12 col-md-2 col-sm-4"><p>Number of Guests</p></div>
@@ -197,6 +210,7 @@
            </div>
         </div>
     </footer>
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
